@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello Afterpay! - [dev]"
+    return "Hello world! - [dev]"
 
 if __name__ == "__main__":
     app.run()
